@@ -23,7 +23,7 @@ function calculateAge(){
     age--;
   }
 
-  resultEl.innerHTML = `Your age is ${age} years old`;
+  resultEl.innerHTML = `Your age is ${age} ${age > 1 ? 'years' : 'year'} old`;
 
    // Clear the input field after calculating age
    inputEl.value = "";
