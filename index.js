@@ -2,10 +2,6 @@ const inputEl = document.getElementById('birthday');
 const btnEl = document.getElementById('btn');
 const resultEl = document.getElementById('result');
 
-
-// let today = new Date().getDate();
-// let age;
-
 btnEl.addEventListener('click', calculateAge)
 
 function calculateAge(){
@@ -32,5 +28,3 @@ function calculateAge(){
    // Clear the input field after calculating age
    inputEl.value = "";
 }
-
-// calculateAge()
